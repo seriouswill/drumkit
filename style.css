@@ -1,0 +1,52 @@
+body {
+  background-color: bisque;
+  text-align: center;
+}
+header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+aside {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#keybox {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  width: 120px;
+  font-weight: bold;
+  font-size: 48px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: rgb(241, 192, 117);
+}
+
+#imagebox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 120px;
+  cursor: pointer;
+}
+
+img:hover {
+  width: 130px;
+  background-color: rgb(241, 192, 117);
+  border-radius: 30px;
+}
