@@ -1,9 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
 body {
   background-color: bisque;
   background-image: url("./images/bg.png");
-  background-position: cover;
+  background-size: cover;
   text-align: center;
 }
+#gradient {
+  background-image: linear-gradient(
+    rgb(167, 167, 167),
+    rgba(255, 228, 196, 0.185)
+  );
+  border-radius: 60px;
+}
+
+aside {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
 header {
   text-align: center;
   justify-content: center;
@@ -12,6 +29,7 @@ header {
 
 h1 {
   font-size: 80px;
+  font-family: "Monoton", cursive;
 }
 aside {
   font-size: 30px;
@@ -31,6 +49,7 @@ button {
   font-weight: bold;
   font-size: 48px;
   border-radius: 15px;
+  font-family: "Monoton";
 }
 
 button:hover {
